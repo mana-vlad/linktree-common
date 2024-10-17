@@ -1,0 +1,476 @@
+.linktree {
+  background-color: #171720;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.linktree .overlap-wrapper {
+  background-color: #171720;
+  width: 430px;
+  height: 932px;
+}
+
+.linktree .overlap {
+  height: 932px;
+  background-image: url(./img/bg.png);
+  background-size: 100% 100%;
+}
+
+.linktree .frame {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  align-items: flex-start;
+  gap: 15px;
+  position: relative;
+  top: 114px;
+  left: 40px;
+}
+
+.linktree .MC-icon {
+  position: relative;
+  width: 56px;
+  height: 56px;
+}
+
+.linktree .welcome-to-mana {
+  position: relative;
+  width: fit-content;
+  font-family: "Neue Haas Grotesk Display Pro-75Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 46px;
+  letter-spacing: 0;
+  line-height: 42px;
+}
+
+.linktree .a-platform-for-urban {
+  position: relative;
+  width: 317px;
+  font-family: "Space Grotesk", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 18px;
+}
+
+.linktree .cards {
+  display: flex;
+  flex-wrap: wrap;
+  width: 350px;
+  align-items: flex-start;
+  gap: 15px 10px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.linktree .div {
+  position: relative;
+  width: 110px;
+  height: 136px;
+  background-color: #ffffff4c;
+  border-radius: 16px;
+}
+
+.linktree .group {
+  position: relative;
+  width: 102px;
+  height: 76px;
+  top: 30px;
+  left: 5px;
+}
+
+.linktree .img {
+  position: absolute;
+  width: 55px;
+  height: 40px;
+  top: 0;
+  left: 22px;
+}
+
+.linktree .text-wrapper {
+  position: absolute;
+  width: 100px;
+  height: 24px;
+  top: 52px;
+  left: 0;
+  font-family: "Space Grotesk", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 12px;
+}
+
+.linktree .group-2 {
+  position: relative;
+  width: 102px;
+  height: 70px;
+  top: 33px;
+  left: 5px;
+}
+
+.linktree .overlap-group {
+  position: absolute;
+  width: 45px;
+  height: 40px;
+  top: 0;
+  left: 27px;
+  background-image: url(./img/group-2-1.png);
+  background-size: 100% 100%;
+}
+
+.linktree .gradient {
+  position: relative;
+  width: 22px;
+  height: 2px;
+  top: 16px;
+  left: 6px;
+}
+
+.linktree .rectangle {
+  left: 0;
+  background-color: #ffc431;
+  position: absolute;
+  width: 4px;
+  height: 2px;
+  top: 0;
+}
+
+.linktree .rectangle-2 {
+  left: 4px;
+  background-color: #ff8f3b;
+  position: absolute;
+  width: 4px;
+  height: 2px;
+  top: 0;
+}
+
+.linktree .rectangle-3 {
+  left: 7px;
+  background-color: #ff4a82;
+  position: absolute;
+  width: 4px;
+  height: 2px;
+  top: 0;
+}
+
+.linktree .rectangle-4 {
+  left: 11px;
+  background-color: #ac30b6;
+  position: absolute;
+  width: 4px;
+  height: 2px;
+  top: 0;
+}
+
+.linktree .rectangle-5 {
+  left: 15px;
+  background-color: #0ca1f5;
+  position: absolute;
+  width: 4px;
+  height: 2px;
+  top: 0;
+}
+
+.linktree .rectangle-6 {
+  left: 18px;
+  background-color: #00ae5e;
+  position: absolute;
+  width: 4px;
+  height: 2px;
+  top: 0;
+}
+
+.linktree .text-wrapper-2 {
+  position: absolute;
+  width: 100px;
+  height: 12px;
+  top: 58px;
+  left: 0;
+  font-family: "Space Grotesk", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 12px;
+}
+
+.linktree .overlap-group-wrapper {
+  position: relative;
+  width: 102px;
+  height: 67px;
+  top: 36px;
+  left: 5px;
+}
+
+.linktree .overlap-group-2 {
+  position: relative;
+  width: 127px;
+  height: 133px;
+  top: -29px;
+  left: -27px;
+}
+
+.linktree .text-wrapper-3 {
+  position: absolute;
+  width: 100px;
+  height: 12px;
+  top: 84px;
+  left: 27px;
+  font-family: "Space Grotesk", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 12px;
+}
+
+.linktree .arrow {
+  position: absolute;
+  width: 126px;
+  height: 133px;
+  top: 0;
+  left: 0;
+}
+
+.linktree .group-3 {
+  position: relative;
+  width: 102px;
+  height: 75px;
+  top: 34px;
+  left: 5px;
+}
+
+.linktree .mana-wynwood {
+  top: 51px;
+  position: absolute;
+  width: 100px;
+  height: 24px;
+  left: 0;
+  font-family: "Space Grotesk", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 12px;
+}
+
+.linktree .mana-wynwood-dark {
+  position: absolute;
+  width: 45px;
+  height: 38px;
+  top: 0;
+  left: 27px;
+}
+
+.linktree .div-wrapper {
+  position: absolute;
+  height: 36px;
+  top: 79px;
+  width: 102px;
+  left: 5px;
+}
+
+.linktree .p {
+  position: absolute;
+  width: 100px;
+  height: 36px;
+  top: 0;
+  left: 0;
+  font-family: "Space Grotesk", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 12px;
+}
+
+.linktree .ticket-icon {
+  position: absolute;
+  width: 39px;
+  height: 39px;
+  top: 32px;
+  left: 36px;
+}
+
+.linktree .group-4 {
+  position: relative;
+  width: 102px;
+  height: 76px;
+  top: 32px;
+  left: 5px;
+}
+
+.linktree .tech {
+  position: absolute;
+  width: 27px;
+  height: 40px;
+  top: 0;
+  left: 36px;
+}
+
+.linktree .group-5 {
+  position: relative;
+  height: 79px;
+  top: 36px;
+  width: 102px;
+  left: 5px;
+}
+
+.linktree .mana-fashion {
+  position: absolute;
+  width: 100px;
+  height: 36px;
+  top: 43px;
+  left: 0;
+  font-family: "Space Grotesk", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 12px;
+}
+
+.linktree .MFS-logo {
+  position: absolute;
+  width: 46px;
+  height: 33px;
+  top: 0;
+  left: 27px;
+}
+
+.linktree .group-6 {
+  position: relative;
+  height: 74px;
+  top: 41px;
+  width: 102px;
+  left: 5px;
+}
+
+.linktree .mana-wynwood-2 {
+  position: absolute;
+  width: 100px;
+  height: 36px;
+  top: 38px;
+  left: 0;
+  font-family: "Space Grotesk", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 12px;
+}
+
+.linktree .element-logo {
+  position: absolute;
+  width: 54px;
+  height: 23px;
+  top: 0;
+  left: 23px;
+}
+
+.linktree .group-7 {
+  position: relative;
+  width: 102px;
+  height: 63px;
+  top: 45px;
+  left: 5px;
+}
+
+.linktree .mana-hubs {
+  top: 39px;
+  position: absolute;
+  width: 100px;
+  height: 24px;
+  left: 0;
+  font-family: "Space Grotesk", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 12px;
+}
+
+.linktree .hubs {
+  position: absolute;
+  width: 53px;
+  height: 17px;
+  top: 0;
+  left: 24px;
+}
+
+.linktree .social-media-icons {
+  position: relative;
+  width: 350px;
+  height: 60px;
+}
+
+.linktree .group-8 {
+  position: relative;
+  width: 248px;
+  height: 20px;
+  top: 20px;
+  left: 51px;
+}
+
+.linktree .youtube-icon {
+  position: absolute;
+  width: 24px;
+  height: 17px;
+  top: 2px;
+  left: 224px;
+}
+
+.linktree .linkedin-icon {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  top: 1px;
+  left: 179px;
+}
+
+.linktree .tiktok-icon {
+  position: absolute;
+  width: 16px;
+  height: 18px;
+  top: 1px;
+  left: 136px;
+}
+
+.linktree .x-icon {
+  position: absolute;
+  width: 17px;
+  height: 16px;
+  top: 2px;
+  left: 92px;
+}
+
+.linktree .instagram-icon {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  top: 1px;
+  left: 47px;
+  background-image: url(./img/clip-path-group.png);
+  background-size: 100% 100%;
+}
+
+.linktree .facebook-icon {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 0;
+  left: 0;
+}
