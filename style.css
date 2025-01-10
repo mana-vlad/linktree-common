@@ -1,3 +1,23 @@
+/* Default styles for larger screens */
+body {
+  font-size: 16px;
+  padding: 20px;
+}
+
+.linktree .frame {
+  width: 350px;
+  padding: 20px;
+}
+
+.linktree .welcome-to-mana {
+  font-size: 46px;
+}
+
+.linktree .cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
 .linktree {
   background-color: #171720;
   display: flex;
@@ -5,7 +25,91 @@
   justify-content: center;
   width: 100%;
 }
+@media (max-width: 1280px) {
+  body {
+    font-size: 15px;
+    padding: 15px;
+  }
 
+  .linktree .frame {
+    width: 300px;
+  }
+
+  .linktree .welcome-to-mana {
+    font-size: 40px;
+  }
+}
+@media (min-width: 1920px) {
+  body {
+    font-size: 18px;
+    padding: 25px;
+  }
+
+  .linktree .frame {
+    width: 400px;
+  }
+
+  .linktree .welcome-to-mana {
+    font-size: 50px;
+  }
+}
+@media (max-width: 390px) {
+  body {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .linktree .frame {
+    width: 100%;
+    padding: 10px;
+    left: 0;
+  }
+
+  .linktree .welcome-to-mana {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .linktree .cards {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+@media (max-width: 1430px) {
+  body {
+    font-size: 15px;
+    padding: 15px;
+  }
+
+  .linktree .frame {
+    width: 320px;
+  }
+}
+@media (max-width: 460px) {
+  body {
+    font-size: 12px;
+    padding: 5px;
+  }
+
+  .linktree .frame {
+    width: 90%;
+    margin: auto;
+  }
+
+  .linktree .welcome-to-mana {
+    font-size: 22px;
+  }
+}
+@media (max-width: 800px) {
+  body {
+    font-size: 13px;
+    padding: 10px;
+  }
+
+  .linktree .frame {
+    width: 280px;
+  }
+}
 .linktree .overlap-wrapper {
   background-color: #171720;
   width: 430px;
