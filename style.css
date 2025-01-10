@@ -531,40 +531,40 @@ body {
 
 .linktree .youtube-icon {
   position: absolute;
-  width: 24px;
-  height: 20px;
+  width: 48px; /* Doubled from 24px */
+  height: 40px; /* Doubled from 20px */
   top: 2px;
   left: 224px;
 }
 
 .linktree .linkedin-icon {
   position: absolute;
-  width: 18px;
-  height: 18px;
+  width: 36px; /* Doubled from 18px */
+  height: 36px; /* Doubled from 18px */
   top: 1px;
   left: 179px;
 }
 
 .linktree .tiktok-icon {
   position: absolute;
-  width: 16px;
-  height: 18px;
+  width: 32px; /* Doubled from 16px */
+  height: 36px; /* Doubled from 18px */
   top: 1px;
   left: 136px;
 }
 
 .linktree .x-icon {
   position: absolute;
-  width: 17px;
-  height: 16px;
+  width: 34px; /* Doubled from 17px */
+  height: 32px; /* Doubled from 16px */
   top: 2px;
   left: 92px;
 }
 
 .linktree .instagram-icon {
   position: absolute;
-  width: 18px;
-  height: 18px;
+  width: 36px; /* Doubled from 18px */
+  height: 36px; /* Doubled from 18px */
   top: 1px;
   left: 47px;
   background-image: url(./img/clip-path-group.png);
@@ -573,8 +573,8 @@ body {
 
 .linktree .facebook-icon {
   position: absolute;
-  width: 20px;
-  height: 20px;
+  width: 40px; /* Doubled from 20px */
+  height: 40px; /* Doubled from 20px */
   top: 0;
   left: 0;
 }
