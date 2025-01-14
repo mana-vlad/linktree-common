@@ -1,61 +1,11 @@
-/* Default styles for larger screens */
-body {
-  font-size: 16px;
-  padding: 20px;
-  height: 100vh
-}
-
-.linktree .frame {
-  width: 350px;
-  padding: 20px;
-}
-
-.linktree .welcome-to-mana {
-  font-size: 46px;
-}
-
-.linktree .cards {
-  display: flex;
-  flex-wrap: wrap; /* Allows cards to wrap to the next row */
-  justify-content: center; /* Centers the cards */
-  gap: 15px; /* Space between cards */
-  width: 100%; /* Ensures it uses the full width of its container */
-  margin: 0 auto; /* Centers the cards container */
-  padding: 10px; /* Adds padding around the cards */
-  box-sizing: border-box; /* Ensures padding is included in the width calculation */
-}
 .linktree {
   background-color: #171720;
-  background-size: cover; /* Ensures the background covers the entire viewport */
-  background-position: center; /* Centers the background image */
-  background-repeat: no-repeat; /* Prevents tiling of the background */
-  min-height: 100vh; /* Ensures it covers the viewport height */
-  display: flex; /* Use flex to align content */
-  flex-direction: column; /* Stack elements vertically */
-  align-items: center; /* Horizontally center the content */
-  justify-content: center; /* Vertically center the content */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
 }
-@media (max-width: 390px) {
-  body {
-    font-size: 14px;
-    padding: 10px;
-  }
 
-  .linktree .frame {
-    width: 100%;
-    padding: 10px;
-    left: 0;
-  }
-
-  .linktree .welcome-to-mana {
-    font-size: 24px;
-    text-align: center;
-  }
-
-  .linktree .frame {
-    width: 280px;
-  }
-}
 .linktree .overlap-wrapper {
   background-color: #171720;
   width: 430px;
@@ -64,7 +14,7 @@ body {
 
 .linktree .overlap {
   height: 932px;
-  background-image: url(./img/bg.png);
+  background-image: url(https://cdn.animaapp.com/projects/66d1faccdf6238a7010d66ed/releases/67867d4775ac36849ad496d4/img/bg-1.png);
   background-size: 100% 100%;
 }
 
@@ -170,7 +120,7 @@ body {
   height: 40px;
   top: 0;
   left: 27px;
-  background-image: url(./img/group-2-1.png);
+  background-image: url(https://cdn.animaapp.com/projects/66d1faccdf6238a7010d66ed/releases/67867d4775ac36849ad496d4/img/group-2-3@2x.png);
   background-size: 100% 100%;
 }
 
@@ -477,50 +427,50 @@ body {
 
 .linktree .youtube-icon {
   position: absolute;
-  width: 48px; /* Doubled from 24px */
-  height: 40px; /* Doubled from 20px */
+  width: 24px;
+  height: 17px;
   top: 2px;
   left: 224px;
 }
 
 .linktree .linkedin-icon {
   position: absolute;
-  width: 36px; /* Doubled from 18px */
-  height: 36px; /* Doubled from 18px */
+  width: 18px;
+  height: 18px;
   top: 1px;
   left: 179px;
 }
 
 .linktree .tiktok-icon {
   position: absolute;
-  width: 32px; /* Doubled from 16px */
-  height: 36px; /* Doubled from 18px */
+  width: 16px;
+  height: 18px;
   top: 1px;
   left: 136px;
 }
 
 .linktree .x-icon {
   position: absolute;
-  width: 34px; /* Doubled from 17px */
-  height: 32px; /* Doubled from 16px */
+  width: 17px;
+  height: 16px;
   top: 2px;
   left: 92px;
 }
 
 .linktree .instagram-icon {
   position: absolute;
-  width: 36px; /* Doubled from 18px */
-  height: 36px; /* Doubled from 18px */
+  width: 18px;
+  height: 18px;
   top: 1px;
   left: 47px;
-  background-image: url(./img/clip-path-group.png);
+  background-image: url(https://cdn.animaapp.com/projects/66d1faccdf6238a7010d66ed/releases/67867d4775ac36849ad496d4/img/clip-path-group-1@2x.png);
   background-size: 100% 100%;
 }
 
 .linktree .facebook-icon {
   position: absolute;
-  width: 40px; /* Doubled from 20px */
-  height: 40px; /* Doubled from 20px */
+  width: 20px;
+  height: 20px;
   top: 0;
   left: 0;
 }
